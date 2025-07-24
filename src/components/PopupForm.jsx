@@ -42,7 +42,7 @@ function PopupForm({  onClose }) {
         setIsSubmitting(true);
       
         try {
-          const response = await fetch("http://localhost:8000/api/waitlist/", {
+          const response = await fetch("https://restapi-django-3.onrender.com/api/waitlist/", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
