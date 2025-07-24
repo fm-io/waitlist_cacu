@@ -192,7 +192,7 @@ section h2 {
 
 /* Inputs */
 .popup input {
-  width: 100%;
+  width: 94%;
   padding: 0.75rem;
   margin-bottom: 1rem;
   border-radius: 6px;
@@ -268,6 +268,7 @@ button:disabled {
 .popup .btn.primary:hover {
   background-color: rgb(32, 129, 32);;
 }
+
 @media (max-width: 480px) {
   .popup {
     padding: 1.5rem;
